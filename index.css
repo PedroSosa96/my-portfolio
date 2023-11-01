@@ -1,0 +1,111 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #e5e7eb;
+    color: black;
+}
+
+#nav-bar {
+    background-color:  #d1d5db;
+    background-color: ;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space space-between;
+}
+
+.nav-bar-link {
+    /* display: flex; */
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: 
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+#intro {
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.parrafo {
+    text-align: justify;
+    align-items: center;
+    padding: 1rem;
+}
+
+#projects {
+    padding: 0.5rem;
+}
+
+.parrafo-1 {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#assignment-container {
+    background-color: #d1d5db;
+    justify-content: space-evenly;
+}
+
+.assignments {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.assignment-1, .assignment-2, .assignment-3 {
+
+}
+
+
+.see-more {
+    padding: 0.5rem;
+    margin: 1.5rem;
+    background-color: #e5e7eb;
+    border-radius: 0.5rem;
+}
+#contact {
+
+}
+
+#contact-me {
+    background-color:  #d1d5db;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+}
